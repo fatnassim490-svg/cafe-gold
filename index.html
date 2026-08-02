@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Gold — Café & Salon de thé à Alger Centre</title>
+  <meta name="description" content="Café Gold, un café chaleureux et cosy au centre-ville d'Alger. Café allongé, iced coffee, expresso et pâtisseries dans une ambiance calme et familiale.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Café <span class="gold-text">Gold</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <button class="nav-close" id="navClose" aria-label="Fermer le menu">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <line x1="2" y1="2" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="18" y1="2" x2="2" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#apropos" class="nav-link">À propos</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#avis" class="nav-link">Avis</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- Section Hero -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg-shape"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-kicker">Alger Centre · Ouvert tous les jours</p>
+        <h1 class="hero-title">
+          Un instant <span class="gold-text">doré</span>,<br>
+          au cœur d'Alger.
+        </h1>
+        <p class="hero-text">
+          Café Gold vous accueille dans un cadre calme et chaleureux, où chaque tasse est préparée avec soin
+          et chaque client reçu comme il se doit. Notre équipe prend le temps — pour vous.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Découvrir le menu</a>
+          <a href="#contact" class="btn btn-outline">Nous trouver</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">4.4★</span>
+            <span class="stat-label">Note clients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">22h</span>
+            <span class="stat-label">Ouvert jusqu'à</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">100–1000</span>
+            <span class="stat-label">DA / personne</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-block">
+          <img src="facade.jpg" alt="Devanture et façade de Café Gold, Alger Centre" class="hero-image">
+        </div>
+        <div class="hero-image-badge">
+          <span class="badge-emoji">✨</span>
+          <span>Ambiance cosy &amp; chaleureuse</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section À propos -->
+  <section class="about" id="apropos">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="about-image-block about-image-1">
+          <img src="salle-principale.jpg" alt="Salle principale de Café Gold" class="about-image">
+        </div>
+        <div class="about-image-block about-image-2">
+          <img src="salle-familiale.jpg" alt="Salle familiale de Café Gold" class="about-image">
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="section-kicker">À propos de nous</p>
+        <h2 class="section-title">Un cocon <span class="gold-text">calme</span> en plein centre-ville</h2>
+        <p class="about-text">
+          Chez Café Gold, nous croyons qu'une bonne pause café commence par un lieu apaisant. Notre salon
+          est pensé pour la détente : propre, chaleureux, et suffisamment calme pour discuter, lire ou
+          simplement souffler entre deux rendez-vous à Alger Centre.
+        </p>
+        <p class="about-text">
+          Nous disposons également d'une <strong>salle familiale respectueuse</strong>, idéale pour recevoir
+          toute la famille dans un cadre confortable. Notre équipe accueillante prend toujours le temps
+          d'échanger avec chaque client, sans jamais donner l'impression de vous presser.
+        </p>
+
+        <ul class="about-features">
+          <li class="feature-item">
+            <span class="feature-icon">🧡</span>
+            <div>
+              <h3>Ambiance chaleureuse</h3>
+              <p>Un cadre cosy pensé pour la détente et la convivialité.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="feature-icon">👨‍👩‍👧‍👦</span>
+            <div>
+              <h3>Salle familiale</h3>
+              <p>Un espace respectueux, adapté aux moments en famille.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="feature-icon">✨</span>
+            <div>
+              <h3>Propreté irréprochable</h3>
+              <p>Des locaux entretenus avec soin, à chaque visite.</p>
+            </div>
+          </li>
+          <li class="feature-item">
+            <span class="feature-icon">🤝</span>
+            <div>
+              <h3>Équipe attentionnée</h3>
+              <p>Un accueil qui prend le temps, sans jamais vous presser.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Menu -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header center">
+        <p class="section-kicker">Notre carte</p>
+        <h2 class="section-title">Le <span class="gold-text">Menu</span></h2>
+        <p class="section-subtitle">Boissons, entremets et gourmandises — une sélection complète à prix abordable.</p>
+      </div>
+
+      <!-- Onglets de filtrage par catégorie -->
+      <div class="menu-tabs" role="tablist" aria-label="Catégories du menu">
+        <button class="menu-tab active" data-target="boissons" role="tab" aria-selected="true" aria-controls="panel-boissons">☕ Boissons</button>
+        <button class="menu-tab" data-target="entremets" role="tab" aria-selected="false" aria-controls="panel-entremets">🍰 Entremets</button>
+        <button class="menu-tab" data-target="patisseries" role="tab" aria-selected="false" aria-controls="panel-patisseries">🍪 Pâtisseries &amp; Douceurs</button>
+        <button class="menu-tab" data-target="traditionnel" role="tab" aria-selected="false" aria-controls="panel-traditionnel">🌙 Traditionnel</button>
+      </div>
+
+      <div class="menu-panels">
+
+        <!-- Panneau : Boissons Chaudes & Cafés -->
+        <div class="menu-panel active" id="panel-boissons" role="tabpanel">
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cafe.jpg" alt="Café" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Café</h3><span class="menu-item-price">130 DA</span></div>
+                <p class="menu-item-desc">Un café classique, simple et intense.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cafe-lavazza.jpg" alt="Café Lavazza" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Café Lavazza</h3><span class="menu-item-price">200 DA</span></div>
+                <p class="menu-item-desc">Café italien Lavazza, à la torréfaction riche.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="creme-pressee.jpg" alt="Crème Pressée" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Crème Pressée</h3><span class="menu-item-price">180 DA</span></div>
+                <p class="menu-item-desc">Café pressé à la crème, onctueux et doux.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="americano.jpg" alt="Americano / Long Black" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Americano / Long Black</h3><span class="menu-item-price">200 DA</span></div>
+                <p class="menu-item-desc">Espresso allongé à l'eau chaude.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="macchiato.jpg" alt="Macchiato" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Macchiato</h3><span class="menu-item-price">200 DA</span></div>
+                <p class="menu-item-desc">Espresso taché d'une touche de mousse de lait.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cappuccino-classique.jpg" alt="Cappuccino Classique" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cappuccino Classique</h3><span class="menu-item-price">250 DA</span></div>
+                <p class="menu-item-desc">Espresso, lait chaud et mousse onctueuse.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cappuccino-aromatise.jpg" alt="Cappuccino Aromatisé" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cappuccino Aromatisé</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Cappuccino relevé d'un parfum au choix.</p>
+              </div>
+            </article>
+
+            <article class="menu-item featured">
+              <div class="menu-item-visual"><img src="latte-classique.jpg" alt="Latte Classique" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Latte Classique</h3><span class="menu-item-price">200 DA</span></div>
+                <p class="menu-item-desc">Espresso et lait crémeux. Également disponible glacé : 200 DA.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="latte-aromatise.jpg" alt="Latte Aromatisé" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Latte Aromatisé</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Latte parfumé au choix. Également disponible glacé : 250 DA.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="spanish-latte.jpg" alt="Spanish Latte" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Spanish Latte</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Latte sucré, touche de lait concentré.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="mocaccino.jpg" alt="Mocaccino" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Mocaccino</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Espresso, chocolat et lait mousseux.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="matcha-latte.jpg" alt="Matcha Latte" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Matcha Latte</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Thé vert matcha et lait crémeux.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cafe-mocha.jpg" alt="Café Mocha" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Café Mocha</h3><span class="menu-item-price">250 DA</span></div>
+                <p class="menu-item-desc">Espresso, chocolat et lait. Même prix pour Café Bon-bon, Cortado et Flat White.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="chocolat-chaud.jpg" alt="Chocolat Chaud" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Chocolat Chaud</h3><span class="menu-item-price">300 DA</span></div>
+                <p class="menu-item-desc">Chocolat fondant et onctueux.</p>
+              </div>
+            </article>
+
+            <article class="menu-item featured">
+              <div class="menu-item-visual"><img src="cafe-kinder.jpg" alt="Café Kinder" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Café Kinder</h3><span class="menu-item-price">400 DA</span></div>
+                <p class="menu-item-desc">Café gourmand façon Kinder. Même prix pour l'Affogato.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="lait.jpg" alt="Lait" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Lait</h3><span class="menu-item-price">80 DA</span></div>
+                <p class="menu-item-desc">Un verre de lait, chaud ou froid.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="the-infusions.jpg" alt="Thés & Infusions" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Thés &amp; Infusions</h3><span class="menu-item-price">100 DA</span></div>
+                <p class="menu-item-desc">Thé vert, thé maison ou tisane au choix.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="the-hibiscus.jpg" alt="Thé Hibiscus (Karkadé)" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Thé Hibiscus (Karkadé)</h3><span class="menu-item-price">200 DA</span></div>
+                <p class="menu-item-desc">Infusion glacée à l'hibiscus, fraîche et acidulée.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tisane-royale.jpg" alt="Tisane Royale" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tisane Royale</h3><span class="menu-item-price">150 DA</span></div>
+                <p class="menu-item-desc">Mélange floral apaisant.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Panneau : Entremets & Gourmandises -->
+        <div class="menu-panel" id="panel-entremets" role="tabpanel">
+          <p class="menu-note menu-note-top">✨ Tous les entremets sont à 350 DA.</p>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="lotus.jpg" alt="Lotus" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Lotus</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Crumble, crème cheese, coulis lotus.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="royal-chocolat.jpg" alt="Royal Chocolate" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Royal Chocolate</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit choco, crémeux choco-vanille, mousse choco-noir, glaçage noir.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="marquise-nutella.jpg" alt="Chocolat Noir" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Chocolat Noir</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit, crème mousseline choco-noir, glaçage chocolat miroir.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="chocotella.jpg" alt="Chocotella" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Chocotella</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit chocolat, crème mousseline choco, glaçage chocolat.</p>
+              </div>
+            </article>
+
+            <article class="menu-item featured">
+              <div class="menu-item-visual"><img src="snickers.jpg" alt="Snickers" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Snickers</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit chocolat, crémeux choco-vanille, caramel beurre salé, cacahuètes torréfiées salées, glaçage lacté.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="trois-chocolats.jpg" alt="Trois Chocolats" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Trois Chocolats</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Croustillant, biscuit vanille, mousse chocolat noir, mousse au lait, mousse choco blanc, glaçage choco.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="ferrero.jpg" alt="Ferrero" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Ferrero</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit, crème mousseline choco, crèmecheese choco, glaçage gourmand.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="marquise-chocolat.jpg" alt="Marquise Chocolat" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Marquise Chocolat</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit cacao, mousse choco-noir, éclats d'amandes, glaçage chocolat.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="https://images.pexels.com/photos/691147/pexels-photo-691147.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Marquise Praliné" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Marquise Praliné</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit cacao, crème praliné au mascarpone, pralin d'amandes, amandes effilées.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="chocolat-noir.png" alt="Marquise Nutella" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Marquise Nutella</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuit cacao, crème mascarpone au Nutella, pralin de noisettes, glaçage Nutella.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="fraisier.jpg" alt="Fraisier" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Fraisier</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Base croquant vanille, crème mascarpone, coulis de fraises, glaçage fraise.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tiramisu.jpg" alt="Tiramisu" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tiramisu</h3><span class="menu-item-price">350 DA</span></div>
+                <p class="menu-item-desc">Biscuits boudoirs imbibés de café espresso, crème mascarpone, décoration velours cacao.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Panneau : Cheesecakes & Tartes -->
+        <!-- Panneau : Pâtisseries & Douceurs -->
+        <div class="menu-panel" id="panel-patisseries" role="tabpanel">
+          <h4 class="menu-subheading">Tartes &amp; Cheesecakes</h4>
+          <p class="menu-note menu-note-top">✨ Tous les cheesecakes et tartes sont à 350 DA.</p>
+          <div class="menu-grid">
+
+            <article class="menu-item featured">
+              <div class="menu-item-visual"><img src="cheesecake-bueno.jpg" alt="Cheesecake Bueno" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Bueno</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-chocolat.jpg" alt="Cheesecake Chocolat" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Chocolat</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-pistache.jpg" alt="Cheesecake Pistache" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Pistache</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-rocher.png" alt="Cheesecake Rocher" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Rocher</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-rafaello.jpg" alt="Cheesecake Rafaello" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Rafaello</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-citron.jpg" alt="Cheesecake Citron" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Citron</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cheesecake-fruits-rouges.png" alt="Cheesecake Fruits Rouges" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cheesecake Fruits Rouges</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tarte-citron.jpg" alt="Tarte Citron" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tarte Citron</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tarte-pomme.jpg" alt="Tarte Pomme" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tarte Pomme</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tarte-amandine.jpg" alt="Tarte Amandine" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tarte Amandine</h3><span class="menu-item-price">350 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="crostate.jpg" alt="Crostate" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Crostate</h3><span class="menu-item-price">250 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <h4 class="menu-subheading">Cakes</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cake-dubai.jpg" alt="Cake Dubai" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cake Dubai</h3><span class="menu-item-price">250 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cake-anglais.jpg" alt="Cake Anglais" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cake Anglais</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cake-damier.jpg" alt="Cake Damier" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cake Damier</h3><span class="menu-item-price">200 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <h4 class="menu-subheading">Gourmandises &amp; Viennoiseries</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="cookies-chocolat.jpg" alt="Cookies Chocolat" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Cookies Chocolat</h3><span class="menu-item-price">250 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item featured">
+              <div class="menu-item-visual"><img src="brownies-pistache.jpg" alt="Brownies Pistache Noisette" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Brownies Pistache Noisette</h3><span class="menu-item-price">300 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="https://images.pexels.com/photos/972838/pexels-photo-972838.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Croissant & Viennoiseries" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Croissant &amp; Viennoiseries</h3><span class="menu-item-price">Dès 100 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Panneau : Gâteaux Traditionnels -->
+        <div class="menu-panel" id="panel-traditionnel" role="tabpanel">
+          <h4 class="menu-subheading">Base amandes</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="makroud.jpg" alt="Makroud aux amandes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Makroud</h3><span class="menu-item-price">120 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tcharek-amandes.jpg" alt="Tcharek aux amandes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tcharek</h3><span class="menu-item-price">150 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="samsa.jpg" alt="Samsa" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Samsa</h3><span class="menu-item-price">150 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="k3ik3at.jpg" alt="K3ik3at" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>K3ik3at</h3><span class="menu-item-price">150 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="dziriot-amandes.jpg" alt="Dziriot aux amandes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Dziriot</h3><span class="menu-item-price">150 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <h4 class="menu-subheading">Base cacahuètes</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="tcharek-amandes.jpg" alt="Tcharek aux cacahuètes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Tcharek</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="dziriot-amandes.jpg" alt="Dziriot aux cacahuètes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Dziriot</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <h4 class="menu-subheading">Base dattes</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="makroud.jpg" alt="Makroud aux dattes" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Makroud</h3><span class="menu-item-price">80 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="bradj.jpg" alt="Bradj" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Bradj</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <h4 class="menu-subheading">Autres</h4>
+          <div class="menu-grid">
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="griwech.jpg" alt="Griwech" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Griwech</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="ghribia.png" alt="Ghribia" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Ghribia</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="sable.jpg" alt="Sablé" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Sablé</h3><span class="menu-item-price">100 DA</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="menu-item-visual"><img src="msemen.jpg" alt="Msemen" class="menu-item-img" loading="lazy"></div>
+              <div class="menu-item-body">
+                <div class="menu-item-header"><h3>Msemen</h3><span class="menu-item-price">80 DA</span></div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Avis clients -->
+  <section class="testimonials" id="avis">
+    <div class="container">
+      <div class="section-header center">
+        <p class="section-kicker">Ce qu'on dit de nous</p>
+        <h2 class="section-title">Avis de nos <span class="gold-text">clients</span></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Very nice coffee in Center Algiers. The staff takes time with every customer. And it's not that expensive."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div>
+              <p class="author-name">Sou Mya</p>
+              <p class="author-role">Cliente</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Très bel endroit pour consommer un goûter. C'est cosy et il y a même une salle familiale. Les locaux sont très propres. Établissement bien géré et le café expresso était très bon !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">PK</div>
+            <div>
+              <p class="author-name">Pacha Kamel</p>
+              <p class="author-role">Client</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Café Gold est une belle découverte en plein cœur d'Alger. L'endroit est propre, chaleureux et surtout très familial. Les boissons sont rafraîchissantes et les pâtisseries sont délicieuses !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AH</div>
+            <div>
+              <p class="author-name">Adel Hdjr</p>
+              <p class="author-role">Client</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "J'y reviens à chaque fois, seule ou accompagnée et je ne suis jamais déçue. C'est calme, familial, bien fréquenté, l'équipe est réactive, les prix sont très concurrentiels et les desserts très bons."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">TS</div>
+            <div>
+              <p class="author-name">Temmar Habiba Selma</p>
+              <p class="author-role">Cliente</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Je recommande cet endroit avec une zone familiale et des prises pour se poser et travailler. Et des pâtisseries très bonnes !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AZ</div>
+            <div>
+              <p class="author-name">Abou Zayd</p>
+              <p class="author-role">Client</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "C'est des gens de confiance, le service est excellent, le café est très bon du meilleur qualité possible. Je le recommande vivement, c'est un endroit familial et respectueux !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SS</div>
+            <div>
+              <p class="author-name">Souhila Sou</p>
+              <p class="author-role">Cliente</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact / Localisation -->
+  <section class="location" id="contact">
+    <div class="container location-inner">
+      <div class="location-content">
+        <p class="section-kicker">Nous trouver</p>
+        <h2 class="section-title">Envie d'une pause <span class="gold-text">Café</span> ?</h2>
+        <p class="location-subtitle">Passez nous voir à Alger Centre</p>
+
+        <ul class="location-details">
+          <li><span class="detail-icon">📍</span> 24 Rue Larbi Ben M'hidi, Alger Centre 16000</li>
+          <li><span class="detail-icon">🕐</span> Ouvert 7/7 : 06h30 – 22h00 (Vendredi dès 08h00)</li>
+        </ul>
+
+        <div class="location-actions">
+          <a href="tel:+213551157233" class="btn btn-primary">📞 0551 15 72 33</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Q3G5%2BW7+Alger" target="_blank" rel="noopener noreferrer" class="btn btn-outline">🧭 Obtenir l'itinéraire</a>
+        </div>
+
+        <div class="location-social">
+          <a href="https://www.instagram.com/cafegoldalger" target="_blank" rel="noopener noreferrer" class="social-link">
+            <span class="social-icon">📷</span> Instagram
+          </a>
+          <a href="https://www.tiktok.com/@cafegoldalger" target="_blank" rel="noopener noreferrer" class="social-link">
+            <span class="social-icon">🎵</span> TikTok
+          </a>
+        </div>
+      </div>
+
+      <div class="location-map">
+        <iframe
+          src="https://www.google.com/maps?q=Q3G5%2BW7+Alger&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localisation de Café Gold sur Google Maps">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copyright">&copy; <span id="year"></span> Café Gold — Alger Centre. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top" aria-label="Retour en haut">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
